@@ -53,4 +53,14 @@ form {
   font-weight: 600;
   padding: 1em;
   border-bottom: 1px solid rgb(178, 141, 214);
+  cursor: pointer;
+}
+
+.todos li.completed {
+  text-decoration: line-through;
+  color: #a1a1a1;
+}
+
+.todos li .remove {
+  display: none;
 }
