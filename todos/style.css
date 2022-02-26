@@ -32,11 +32,11 @@ form {
   width: 100%;
   padding: 1em;
   font-size: 1rem;
+  font-weight: 600;
   color: #555;
   border: none;
   outline: none;
   border-bottom: 1px solid rgb(178, 141, 214);
-  text-transform: capitalize;
 }
 
 .input::placeholder {
@@ -50,8 +50,7 @@ form {
 
 .todos li {
   color: rebeccapurple;
-  font-weight: 500;
+  font-weight: 600;
   padding: 1em;
   border-bottom: 1px solid rgb(178, 141, 214);
-  text-transform: capitalize;
 }
